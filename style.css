@@ -1,0 +1,41 @@
+/* Reset and Base Styles */
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: #1e1e1e; color: #f5f5f5; line-height: 1.6; }
+
+/* Navbar */
+nav { background: #111; display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 50px; border-bottom: 2px solid #0fcbf1; }
+nav .logo { color: #0fd7f1; font-size: 1.5rem; font-weight: bold; }
+nav ul { display: flex; list-style: none; gap: 20px; }
+nav ul li a { text-decoration: none; color: #f5f5f5; transition: 0.3s; }
+nav ul li a:hover { color: #0fe2f1; }
+
+/* Header */
+header { text-align: center; padding: 80px 20px; }
+.header-container { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.profile-pic { width: 140px; height: 140px; border-radius: 50%; border: 3px solid #0fd7f1; }
+header h1 { font-size: 2.5rem; color: #0fd7f1; }
+
+/* Sections */
+section { padding: 60px 20px; max-width: 900px; margin: auto; text-align: center; }
+section h2 { margin-bottom: 25px; color: #0fd7f1; font-size: 2rem; }
+.card-container { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+.card { background: #2a2a2a; padding: 20px; border-radius: 10px; transition: 0.3s; min-width: 220px; }
+.card:hover { background: #333; transform: translateY(-5px); }
+
+/* Button */
+.btn { display: inline-block; padding: 12px 25px; background: #0fe9f1; color: #111; text-decoration: none;
+  font-weight: bold; border-radius: 6px; transition: 0.3s; }
+.btn:hover { background: #0dafd4; }
+
+/* Contact */
+form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
+form input, form textarea { padding: 12px; border: none; border-radius: 6px; }
+form button { background: #0fd7f1; color: #111; border: none; padding: 12px; border-radius: 6px; cursor: pointer; }
+form button:hover { background: #0dd4d4; }
+
+/* Footer */
+footer { text-align: center; padding: 20px; background: #111; }
+.social-icons a { color: #0fc4f1; margin: 0 10px; font-size: 1.5rem; transition: 0.3s; }
+.social-icons a:hover { color: #fff; }
